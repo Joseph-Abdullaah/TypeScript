@@ -17,3 +17,13 @@ console.log(isStudent);
 console.log(typeof isStudent);
 isStudent = false; // Valid assignment
 // isStudent = "false"; // Error: Type 'string' is not assignable to type 'boolean
+// Null
+var emptyValue = null;
+console.log(emptyValue);
+console.log(typeof emptyValue);
+// emptyValue = "null"; // Error: Type 'string' is not assignable to type 'null'.
+// Undefined
+var notAssigned = undefined;
+console.log(notAssigned);
+console.log(typeof notAssigned);
+// notAssigned = "undefined"; // Error: Type 'string' is not assignable to type 'undefined'.
